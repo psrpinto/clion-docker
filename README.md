@@ -17,12 +17,12 @@ When setting up the [Toolchain](https://blog.jetbrains.com/clion/2020/01/using-d
 
 ## Usage
 
-### Starting the container
+### Start the container
 ```shell
-docker run --rm -d --cap-add sys_ptrace -p127.0.0.1:2222:22 --name clion regularjack/clion
+docker run --rm -d --cap-add sys_ptrace -p127.0.0.1:2222:22 --name clion docker.pkg.github.com/regularjack/clion-docker/clion
 ```
 
-### Stopping the container
+### Stop the container
 ```shell
 docker stop clion
 ```
