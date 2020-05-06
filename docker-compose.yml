@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  my-app-clion:
+    container_name: my-app-clion
+    image: docker.pkg.github.com/regularjack/clion-docker/clion
+    ports:
+      - "2222:22"
+    cap_add:
+      - "sys_ptrace"
