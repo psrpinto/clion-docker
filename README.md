@@ -39,3 +39,7 @@ When setting up the Toolchain, make sure you use the following credentials:
 
 - user: `clion`
 - password: `clion`
+
+## That's it
+
+You can now build and debug your project inside the container.
