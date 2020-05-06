@@ -15,7 +15,6 @@ RUN apt-get update \
   && rm -rf /var/lib/{apt,dpkg,cache,log}
 
 RUN ( \
-    echo 'LogLevel DEBUG2'; \
     echo 'PermitRootLogin yes'; \
     echo 'PasswordAuthentication yes'; \
     echo 'Subsystem sftp /usr/lib/openssh/sftp-server'; \
