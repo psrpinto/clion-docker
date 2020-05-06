@@ -1,10 +1,10 @@
 # clion-docker
 Build and debug a CMake project in a Docker container, using CLion.
 
-## Boot the container
+## Start the container
 The simplest way to set this up is to use `docker-compose`. An example `docker-compose.yml` file is included in this repo, which you can add to your project.
 
-Once you created the `docker-compose.yml` file, you can the container with:
+Once you created the `docker-compose.yml` file, you can then start the container with:
 
 ````shell
 docker-compose up -d
